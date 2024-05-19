@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @font-face {
     font-family: 'Star';
-    src: url('/site/font/starjedi/Starjedi.ttf') format('truetype');
+    src: url('/font/starjedi/Starjedi.ttf') format('truetype');
 }
 
 :root{
@@ -28,8 +28,9 @@ body{
 .header{
     background-image: linear-gradient(to bottom,rgb(15, 15, 124),red);
     padding: 20px;
-    min-height: 150px;
+    min-height: 130px;
     font-family: var(--font-opcional);
+    padding-bottom: 20px;
 }
 .titulo-header{
     text-align: center;
