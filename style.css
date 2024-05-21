@@ -210,12 +210,15 @@ footer{
     padding: 10px;
     border-radius: 10px 10px 0 0;
     margin: -14px -14px 10px -14px;
+    font-family: var(--font-titulo);
+    font-weight: normal;
 }
 .li-vader{
     margin-bottom: 18px;
 }
 .titulo-li-vader{
     margin-bottom: 4px;
+    font-family: var(--font-opcional);
 }
 .paragrafo-li{
     line-height: 2em;
@@ -235,3 +238,81 @@ footer{
     text-align: center;
     font-size: 1em;
 }
+
+/*Style redenção*/
+.titulo-redencao{
+    color: rgb(0, 0, 0);
+    font-family: var(--font-titulo);
+    font-weight: bold;
+    padding-left: 10px;
+    text-indent: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right,rgb(90, 90, 90),transparent);
+}
+.paragrafo-redencao{
+    line-height: 2em;
+    text-indent: 30px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.subtitulo-redencao{
+    font-family: var(--font-titulo);
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    text-indent: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right,rgb(90, 90, 90),transparent);
+}
+.video-redencao{
+    background-image: linear-gradient(to right,grey,black);
+    margin: 30px -10px;
+    position: relative;
+    padding: 29%;
+}
+.video-redencao > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+.aside-redencao{
+    background-color: var(--cor03);
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid #000000;
+}
+.titulo-lista-ul{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 15px -10px;
+    font-family: var(--font-titulo);
+    font-weight: normal;
+}
+.lista-redencao{
+    list-style-position: inside;
+    list-style-type: none;
+    columns: 2;
+}
+.li-lista-redencao{
+    margin-bottom: 10px;
+}
+.titulo-lista-redencao{
+    margin-bottom: 10px;
+    font-family: var(--font-opcional);
+}
+.paragrafo-lista-redencao{
+    line-height: 2em;
+}
+.footer-redencao{
+    background-color: rgb(43, 43, 43);
+}
+.paragrafo-footer-redencao{
+    color: white;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
